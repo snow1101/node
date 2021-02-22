@@ -17,8 +17,12 @@ const server = http.createServer((request, response) => {
     response.end('a response from server');
 });
 ```
+### net
+* 计算机65535个端口 ---这个数字是由于协议头只有16位用于标示合格端口，所以就只能表示2^16-1=65535个端口了
+
 
 ### 库
+
 
 * 定制命令⾏行行界⾯面 **commander** const program = require('commander')
 * 酷炫的文字工具 **figlet**
