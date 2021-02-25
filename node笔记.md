@@ -11,7 +11,8 @@
 * stream - 是⽤用于与node中流数据交互的接⼝
 * http 中的 request 和 responese 其实就是流
 
-```javascript const http = require('http');
+```javascript 
+const http = require('http');
 const server = http.createServer((request, response) => {
     console.log('there is a request');
     response.end('a response from server');
@@ -28,4 +29,5 @@ const server = http.createServer((request, response) => {
 * 酷炫的文字工具 **figlet**
 * 终端字符串美化 **chalk**
 * 优雅的终端转轮 （如下载时候终端前面的转圈的动画）**ora**
-* 
+* 一个用户与命令行交互的工具[inquirer](https://blog.csdn.net/qq_26733915/article/details/80461257) 
+* 更全的操作文件的库**fs-extra**
